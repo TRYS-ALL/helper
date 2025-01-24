@@ -17,7 +17,7 @@ jobs:
       run: sudo apt-get install -y wget
 
     - name: Clone website
-      run: wget --mirror --convert-links --adjust-extension --page-requisites --no-parent http://example.com -P website
+      run: wget --mirror --convert-links --adjust-extension --page-requisites --no-parent https://www.easy-due.com/ -P website
 
     - name: Commit changes
       run: |
